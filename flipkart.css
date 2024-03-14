@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel1{
+    background-color: red;
+    height: 67.2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+/** flipkart **/
+.flipkart{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 43.2px;
+    background-size: cover;
+}
+
+.flipkart-name{
+    color: blue ;
+    flex: 1;
+    font-size: 1.5rem;
+   
+    
+}
+
+.explore{
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+}
+.flipkart-explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.search{
+    display: flex;
+    border-radius: 4px;
+    margin-right: 10px;
+    align-items: center;
+}
+.search-symbol{
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 500px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.login:hover{
+    border: 2px solid blue ;
+    background-color: blue;
+}
+
+.cart{
+    display: flex;
+    margin-right: 10px;
+}
+
+.seller{
+    display: flex;
+    margin-right: 10px;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+   
+}
+
+.box{
+    border: 2px solid black;
+    height: 150px;
+    width: 10%;
+    background-color: white;
+    border: none;
+   
+    margin-top: 15px;
+    
+}
+.box-img{
+    height: 85px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 0px;
+    
+}

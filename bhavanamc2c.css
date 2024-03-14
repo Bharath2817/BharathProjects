@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+.nav{
+   background-color: blueviolet;
+   height: 80px;
+   align-items: center;
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.nav-logo{
+    height: 10px;
+    width: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-googleplay{
+    background-color: black;
+    color: white;
+   
+}
+
+.gplay-button{
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-store{
+    background-color: black;
+    color: white;
+}
+.login{
+    color: white;
+    background-color: blue;
+}
